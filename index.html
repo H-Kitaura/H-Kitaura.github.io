@@ -2,371 +2,170 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta property='og:type' content='website'>
-  <meta property='og:title' content='ひろゆき ポートフォリオ'>
-  <meta property='og:url' content='URL入る'>
-  <meta property='og:description' content='ひろゆきのポートフォリオです。'>
+  <meta property='og:title' content='Hiroyuki Kitaura ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Hiroyukiのポートフォリオサイトです。'>
   <meta property="og:image" content="img/ogp.png">
-  <meta name="description" content="ひろゆきのポートフォリオです。" />
-  <title>Hiroyuki portfolio</title>
-  <link href="https://fonts.googleapis.com/css?family=Yesteryear" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <meta name="description" content="Hiroyukiのポートフォリオサイトです" />
+  <title>Hiroyuki Kitaura ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
   <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
-  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-  <link rel="shortcut icon" href="img/favicon2.ico" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
 </head>
 
 <body>
-  <div id="wrapper">
-    <header id="header">
-      <h1 class="logo">
-        <span class="logo-title">Hiroyuki Kitaura's portfolio</span>
-        <span class="logo-desc">Web Engineer</span>
-      </h1>
-    </header>
-    <nav id="gnav">
-      <ul>
-        <li><i class="fas fa-user fa-lg"><a href="#Profile">PROFILE</a></i></li>
-        <li><i class="fas fa-lightbulb fa-lg"><a href="#skill">SKILL</a></i></li>
-        <li><i class="fas fa-tasks fa-lg"><a href="#works">WORKS</a></i></li>
-      </ul>
-    </nav>
-    <main id="contents">
+  <div class="wrapper">
 
-      <section class="section" id="Profile">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-user"><span class="section-title-css">PROFILE</span></i></h2>
+    <!-- header -->
+    <header class="header ">
+      <div class="container">
+        <h1 class="header-logo">
+          <a href=".">Hiroyuki Kitaura</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
+            <li class="gnav-item"><a href="#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- mv -->
+      <div class="mv">
+        <div class="mv-container">
+          <p class="mv-title">Hiroyuki</p>
+          <p class="mv-subtitle">PORTFOLIO</p>
+          <p class="mv-text">
+            初めまして、北浦弘幸です。昭和63年34歳のエンジニアの卵です。<br>
+            保育士、介護士として仕事をしていましたが以前からエンジニアの仕事に興味を持っており<br>
+            R4年7月から香川県主催の香川コーディングブートキャンプに参加して改めて夢に向かって歩みたいと思い現在求職活動を行なっています。
+          </p>
+        </div>
+      </div>
+      <!-- /mv -->
+
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="container">
+          <h2 class="title">WORKS（gitのURLを載せています）</h2>
+          <div class="works-list">
+            <a class="works-item" href="https://github.com/H-Kitaura/kawakawa-udon">
+              <div class="works-img"><img src="img/kawakawa-gaikan.jpeg" alt="" /></div>
+              <p class="works-name">川川うどんHP</p>
+              <p class="works-info">Ruby on Rails/HTML/CSS/Bootstrap</p>
+            </a>
+            <a class="works-item" href="https://github.com/H-Kitaura/furima-kagawa2022-Setouchi-Mussle">
+              <div class="works-img"><img src="img/furima.jpeg" alt="" /></div>
+              <p class="works-name">furimaアプリ</p>
+              <p class="works-info">HTML/CSS/Ruby on Rails/（バックエンドメインでチーム開発で作成しました。)</p>
+            </a>
+            <a class="works-item" href="https://github.com/H-Kitaura/laravel_uCRM">
+              <div class="works-img"><img src="img/crm.png" alt="" /></div>
+              <p class="works-name">CRM</p>
+              <p class="works-info">HTML/Tailwindcss/vue,js</p>
+            </a>
           </div>
-          <div class="two-column-wrapper">
-            <div class="two-column-image profile">
-              <img src="img/profile/profile.JPG" alt="">
+        </div>
+      </section>
+      <!-- /works -->
+
+      <!-- skill -->
+      <section class="skill section" id="skill">
+        <div class="container">
+          <h2 class="title">SKILL</h2>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-body">
+                <h3 class="skill-name">HTML5/CSS3</h3>
+                <p class="skill-text">
+                  ブートキャンプにて基礎を学びました。受講後はBootstrapを使うことが多いです。</p>
+              </div>
             </div>
-            <div class="two-column-desc">
-              <p class="text">
-                　はじめまして、昭和６３年生まれの３４歳エンジニアの卵の北浦弘幸です。私は保育士、介護士資格を取得しています。
-                　元々エンジニア職に興味を持っておりR4.7月から11月まで香川県主催の香川コーディングブートキャンプに参加しエンジニアになりたいと改めて思い求職活動を行なっております。
-                　ブートキャンプではプログラミングの基礎、ruby、ruby on rails、受講後はPHP,Laravelを勉強しています。）
+            <div class="skill-item">
+              <div class="skill-body">
+                <h3 class="skill-name">Back end</h3>
+                <p class="skill-text">
+                  ブートキャンプ時はrubyを勉強しました。受講後はphpの勉強を始めました。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-body">
+                <h3 class="skill-name">JavaScript</h3>
+                <p class="skill-text">
+                  ブートキャンプ時きそを学びました。受講後はjquery,vue.jsを勉強しています。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-body">
+                <h3 class="skill-name">WordPress</h3>
+                <p class="skill-text">
+                  MANPを使っての作成を勉強しています。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-body">
+                <h3 class="skill-name">サーバー</h3>
+                <p class="skill-text">
+                 インフラ関係は勉強中でAWSを勉強していきたいです。docker composeを使用してLaravel sailの環境構築ができます。</p>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-body">
+                <h3 class="skill-name">DB</h3>
+                <p class="skill-text">
+                  Mysqlを使用しています。。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /skill -->
+
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/profile.jpg" alt="">
+            </p>
+            <div class="profile-body">
+              <p>
+                保育や介護現場ではコミュニケーション能力の向上、ユニットのリーダーにも就任していたので円滑にチームが業務できるよう努めました。
+              </p>
+              <p>
+                エンジニアとしては学ぶことが多いですがモダンな技術を学んでいきたいです。
               </p>
             </div>
           </div>
         </div>
       </section>
-      
-      <section class="section" id="skill">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-lightbulb fa-lg"><span class="section-title-css">SKILL</span></i></h2>
-            <p class="section-desc"></p>
-          </div>
-          <div class="card-wrapper">
-            
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>デザイン・コーディング</h3>
-                <p>基本的な事は一通りできます。CSSフレームワークはbootstrap使いました。</p>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">HTML5</th>
-                      <td>5ヶ月</td>
-                      <td><span class="rating"><p class="rate rate4"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">CSS3</th>
-                      <td>5ヶ月</td>
-                      <td><span class="rating"><p class="rate rate4"></p></span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
+      <!-- /about -->
 
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>フロントエンド</h3>
-                <p>直近ではLaravelにvue.jsを使用してCRMアプリを作りました。</p>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">javascrpt</th>
-                      <td>4ヶ月</td>
-                      <td><span class="rating"><p class="rate rate5"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">jQuery</th>
-                      <td>1ヶ月</td>
-                      <td><span class="rating"><p class="rate rate3"></p></span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-desktop"></i>バックエンド</h3>
-                <p>railsを４ヶ月、Laravelを１ヶ月勉強しました。</p>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
-                    </tr>
-                  </thead>
-                </table>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-database"></i>DB</h3>
-                <p>主にmysqlを使用しています。</p>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">MySQL</th>
-                      <td>5ヶ月</td>
-                      <td><span class="rating"><p class="rate rate4"></p></span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-server"></i>インフラ・サーバー</h3>
-                <p>php開発時はapache、docker conposeを使用して環境構築することがあります。</p>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">Apache</th>
-                      <td>1ヶ月</td>
-                      <td><span class="rating"><p class="rate rate3"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">docker</th>
-                      <td>1ヶ月</td>
-                      <td><span class="rating"><p class="rate rate3"></p></span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-toolbox"></i>その他</h3>
-                <p>開発等で使用したツールやFWです。</p>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">技術</th>
-                      <th scope="col">経験年数</th>
-                      <th scope="col">スキル</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">git</th>
-                      <td>1年</td>
-                      <td><span class="rating"><p class="rate rate4"></p></span></td>
-                    </tr>
-                    <tr>
-                      <th scope="row">slack</th>
-                      <td>2年</td>
-                      <td><span class="rating"><p class="rate rate5"></p></span></td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="skill-desc">
-                <h3 class="skill-desc-title"><i class="fas fa-list-alt"></i>保有資格</h3>
-                <table class="table table-borderless">
-                  <thead>
-                    <tr>
-                      <th scope="col">資格</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">保育士</th>
-                    </tr>
-                    <tr>
-                      <th scope="row">介護福祉士</th>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="works">
-        <div class="inner">
-          <div class="section-title-block">
-            <h2 class="section-title"><i class="fas fa-tasks fa-lg"><span class="section-title-css">WORKS</span></i></h2>
-            <div class="section-desc"></div>
-          </div>
-          <div class="card-wrapper my-gallery">
-
-            <figure class="card">
-                <!-- <a href="img/works/dammy.jpg" data-size="980x668" class="card-image"> -->
-                  <img class="card-image" src="img/works/thumb/portfolio.png" alt="" />
-                <!-- </a> -->
-                <figcaption class="card-caption">
-                  <p class="card-caption-title">ポートフォリオ</p>
-                  <p class="card-caption-info">自分自身のポートフォリオです。</p>
-                  <p class="card-caption-info">HTML/CSS/bootstrap4</p>
-                  <p class="card-caption-url"><a class="url-link" href="https://h-kitaura.github.io/" target="_blank">git hub</a></p>
-                </figcaption>
-            </figure>
-    
-            <figure class="card">
-              <!-- <a href="img/works/dammy.jpg" data-size="980x668" class="card-image"> -->
-                <img class="card-image" src="img/works/thumb/idea-share.png" alt="" />
-              <!-- </a> -->
-              <figcaption class="card-caption">
-                <p class="card-caption-title">顧客管理機能</p>
-                <p class="card-caption-info">顧客や商品を管理する機能です。</p>
-                <p class="card-caption-info">Udemyのカリキュラムで学びながら作っていきました。</p>
-                <p class="card-caption-info">html/tailwindcss/php/laravel/vue.js</p>
-                <p class="card-caption-url"><a class="url-link" href="https://github.com/H-Kitaura/laravel_uCRM" target="_blank">git hub</a></p>
-              </figcaption>
-            </figure>
-
-          </div>
-        </div>
-      </section>
-      
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
     </main>
-    <footer id="footer">
-      <div class="inner">
-        <nav class="footer-link">
-          <ul>
-            <li><a href="#Profile">Profile</a></li>
-            <li><a href="#skill">SKILL</a></li>
-            <li><a href="#works">WORKS</a></li>
-          </ul>
-        </nav>
-        <p class="copyright">Copyright&copy;Hiroyuki Kitaura. All Rights Reserved.</p>
-      </div>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;Hiroyuki Kitaura</div>
     </footer>
+    <!-- /footer -->
+
   </div>
-
-
-  <!-- Root element of PhotoSwipe. Must have class pswp. -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe.
-           It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-      <!-- Container that holds slides.
-              PhotoSwipe keeps only 3 of them in the DOM to save memory.
-              Don't modify these 3 pswp__item elements, data is added later on. -->
-      <div class="pswp__container">
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-      </div>
-
-      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-      <div class="pswp__ui pswp__ui--hidden">
-
-        <div class="pswp__top-bar">
-
-          <!--  Controls are self-explanatory. Order can be changed. -->
-
-          <div class="pswp__counter"></div>
-
-          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-
-
-          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-          <!-- element will get class pswp__preloader--active when preloader is running -->
-          <div class="pswp__preloader">
-            <div class="pswp__preloader__icn">
-              <div class="pswp__preloader__cut">
-                <div class="pswp__preloader__donut"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-          <div class="pswp__share-tooltip"></div>
-        </div>
-
-        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-              </button>
-
-        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-              </button>
-
-        <div class="pswp__caption">
-          <div class="pswp__caption__center"></div>
-        </div>
-
-      </div>
-
-    </div>
-    
-    
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
-  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
-  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
