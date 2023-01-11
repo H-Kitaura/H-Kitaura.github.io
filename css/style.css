@@ -250,7 +250,7 @@ img {
 }
 
 /*--------------------------------
- About
+ Profile
 ---------------------------------*/
 .profile {
   display: flex;
@@ -506,7 +506,7 @@ img {
     line-height: 1.7;
   }
 
-  /* About */
+  /* Profile */
   .profile {
     display: block;
   }
